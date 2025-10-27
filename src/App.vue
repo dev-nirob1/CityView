@@ -1,11 +1,16 @@
-<script setup></script>
+<script setup>
+import FooterSection from './components/Section/FooterSection.vue';
+import NavbarSection from './components/Section/NavbarSection.vue';
+import HeroSection from './zems/Front/Section/HeroSection.vue';
+
+</script>
+
+
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+ <NavbarSection/>
+ <HeroSection/>
+ <FooterSection/>
 </template>
 
 <style scoped></style>
