@@ -40,9 +40,18 @@ const toggleAccordion = (id) => {
   <section class="faq-section bg-light">
     <div class="container">
       <SectionTitle class="text-center mb-2" title="Frequently Asked Questions"
-  subTitle="Get answers to common queries about our projects and services"/>
-    <AccordionWidget v-for="item in faqs" :key="item.id" :currentOpenItem="currentOpenItem" :accordionData="item"
-      :toggleAccordion="toggleAccordion" />
+        subTitle="Get answers to common queries about our projects and services" />
+      <div class="medium-2 align-center gap-1">
+        <div class="image">
+          <BaseImage
+            src="https://images.pexels.com/photos/5921561/pexels-photo-5921561.jpeg?_gl=1*1b5amjl*_ga*OTAzOTgwMTguMTczNzAwNTI1OA..*_ga_8JE65Q40S6*czE3NjE4MjkyMzkkbzI5JGcxJHQxNzYxODI5NTA0JGo1OSRsMCRoMA.."
+            alt="image" />
+        </div>
+        <div>
+          <AccordionWidget v-for="item in faqs" :key="item.id" :currentOpenItem="currentOpenItem" :accordionData="item"
+            :toggleAccordion="toggleAccordion" />
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -50,5 +59,9 @@ const toggleAccordion = (id) => {
 <style>
 .faq-section {
   padding: 3.75rem 0;
+}
+
+.faq-section img {
+  border-radius: 1rem;
 }
 </style>

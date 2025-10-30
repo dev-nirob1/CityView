@@ -27,7 +27,7 @@ defineProps({
 <style scoped>
 .accordion {
   overflow: hidden;
-  border: 2px solid var(--primary-color);
+  border-radius: .5rem;
   margin-bottom: 1rem;
   background: var(--white-color);
 }
@@ -39,6 +39,8 @@ defineProps({
   display: flex;
   gap: 1rem;
   align-items: center;
+  background: var(--primary-color);
+  color: var(--white-color);
 }
 
 .accordion-title i {
