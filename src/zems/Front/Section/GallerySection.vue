@@ -37,7 +37,7 @@ const handleNext = () => {
 </script>
 
 <template>
-  <section class="gallery bg-light">
+  <section class="gallery">
 
     <div class="container">
       <SectionTitle class="mb-2 text-center" title="A Glimpse of Your Future Home"

@@ -8,9 +8,8 @@ import FloorPlans from './zems/Front/Section/FloorPlans.vue';
 import GallerySection from './zems/Front/Section/GallerySection.vue';
 import HeroSection from './zems/Front/Section/HeroSection.vue';
 import OurPartner from './zems/Front/Section/OurPartner.vue';
-// import OurServices from './zems/Front/Section/OurServices.vue';
 import TestimonialSection from './zems/Front/Section/TestimonialSection.vue';
-// import WhyChooseUs from './zems/Front/Section/WhyChooseUs.vue';
+import WhyChooseUs from './zems/Front/Section/WhyChooseUs.vue';
 </script>
 
 <template>
@@ -19,8 +18,7 @@ import TestimonialSection from './zems/Front/Section/TestimonialSection.vue';
   <AboutProject/>
   <FloorPlans/>
   <AminitiesSection/>
-  <!-- <OurServices/>
-  <WhyChooseUs/> -->
+  <WhyChooseUs/>
   <GallerySection/>
   <FaqSection/>
   <TestimonialSection/>
