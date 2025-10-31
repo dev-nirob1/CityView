@@ -65,11 +65,11 @@ const currentFloor = computed(() => {
 </script>
 
 <template>
-  <section class="floor-plans">
+  <section class="floor-plans bg-light">
     <div class="container">
      <SectionTitle class='text-center'
   title="Explore Our Floor Plans"
-  sub-title="A closer look at the design and structure of every level"
+  subTitle="A closer look at the design and structure of every level"
 />
 
       <div class="tab-panel">
@@ -150,10 +150,6 @@ const currentFloor = computed(() => {
   position: absolute;
   left: 0;
   color: var(--secondary-color);
-}
-
-.tab-panel ul li .btn:hover {
-  background: var(--secondary-color)
 }
 
 @media (min-width: 768px) {

@@ -2,6 +2,7 @@
 import FooterSection from './components/Section/FooterSection.vue';
 import NavbarSection from './components/Section/NavbarSection.vue';
 import AboutProject from './zems/Front/Section/AboutProject.vue';
+import AminitiesSection from './zems/Front/Section/AminitiesSection.vue';
 import FaqSection from './zems/Front/Section/FaqSection.vue';
 import FloorPlans from './zems/Front/Section/FloorPlans.vue';
 import GallerySection from './zems/Front/Section/GallerySection.vue';
@@ -17,6 +18,7 @@ import TestimonialSection from './zems/Front/Section/TestimonialSection.vue';
   <HeroSection />
   <AboutProject/>
   <FloorPlans/>
+  <AminitiesSection/>
   <!-- <OurServices/>
   <WhyChooseUs/> -->
   <GallerySection/>
