@@ -11,7 +11,7 @@ import ProjectGallery from '../Widget/ProjectGallery.vue';
         <div class="project-details medium-p-1">
           <BaseTitle>Recently Finished Project</BaseTitle>
           <BaseParagraph>
-            <i class="fa-solid fa-location-dot"></i> Cox's Bazar, Bangladesh
+            <i class="fa-solid fa-location-dot text-secondary"></i> Cox's Bazar, Bangladesh
           </BaseParagraph>
           <BaseParagraph>
             Nestled beside the world’s longest sea beach, <strong>Azure Bay Residences</strong> stands as a symbol
@@ -25,7 +25,7 @@ import ProjectGallery from '../Widget/ProjectGallery.vue';
             to lush garden lounges, Azure Bay Residences redefine what it means to come home.
           </BaseParagraph>
 
-        <ul class="all-2 gap-1 mt-2 mb-1">
+          <ul class="all-2 gap-1 mt-2 mb-1">
             <ListItem>
               <i class="fas fa-home"></i>
               Spacious Living Rooms
@@ -53,12 +53,15 @@ import ProjectGallery from '../Widget/ProjectGallery.vue';
 .about-project {
   padding: 3.75rem 0;
 }
+
 .project-details p {
   margin: .5rem 0;
 }
+
 .project-details ul {
   margin-top: .75rem;
 }
+
 .project-details ul li {
   background: var(--white-color);
   box-shadow: var(--box-shadow);
@@ -70,6 +73,4 @@ import ProjectGallery from '../Widget/ProjectGallery.vue';
   color: var(--secondary-color);
   font-size: 1.25rem;
 }
-
-
 </style>

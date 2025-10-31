@@ -37,9 +37,10 @@ const handleNext = () => {
 </script>
 
 <template>
-  <section class="gallery container">
+  <section class="gallery bg-light">
 
-    <SectionTitle class="mb-2 text-center" title="A Glimpse of Your Future Home"
+    <div class="container">
+      <SectionTitle class="mb-2 text-center" title="A Glimpse of Your Future Home"
       subTitle="A closer look at the architecture, interiors, and lifestyle that define our latest development." />
 
     <div class="all-2 medium-3 large-4 gap-1 masonry">
@@ -49,6 +50,7 @@ const handleNext = () => {
         <BaseButton @click="handleOpenModal(i)"><i class="fa-solid fa-up-right-and-down-left-from-center"></i>
         </BaseButton>
       </div>
+    </div>
     </div>
 
     <ImageViewerModal :isModalOpen="isModalOpen" :handleCloseModal="handleCloseModal" :handleNext="handleNext"
