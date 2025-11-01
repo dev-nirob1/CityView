@@ -3,6 +3,7 @@ import FooterSection from './components/Section/FooterSection.vue';
 import NavbarSection from './components/Section/NavbarSection.vue';
 import AboutProject from './zems/Front/Section/AboutProject.vue';
 import AminitiesSection from './zems/Front/Section/AminitiesSection.vue';
+import CtaSection from './zems/Front/Section/CtaSection.vue';
 import FaqSection from './zems/Front/Section/FaqSection.vue';
 import FloorPlans from './zems/Front/Section/FloorPlans.vue';
 import GallerySection from './zems/Front/Section/GallerySection.vue';
@@ -23,6 +24,7 @@ import WhyChooseUs from './zems/Front/Section/WhyChooseUs.vue';
   <TestimonialSection />
   <FaqSection />
   <OurPartner />
+  <CtaSection/>
   <FooterSection />
 </template>
 
