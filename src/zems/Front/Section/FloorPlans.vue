@@ -65,7 +65,7 @@ const currentFloor = computed(() => {
 </script>
 
 <template>
-  <section class="floor-plans bg-light">
+  <section id="properties" class="floor-plans bg-light">
     <div class="container">
      <SectionTitle class='text-center'
   title="Explore Our Floor Plans"

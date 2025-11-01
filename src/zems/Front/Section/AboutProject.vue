@@ -4,7 +4,7 @@ import ProjectGallery from '../Widget/ProjectGallery.vue';
 </script>
 
 <template>
-  <section class="about-project">
+  <section id="about" class="about-project">
     <div class="container">
       <div class="medium-2 gap-1">
         <ProjectGallery />

@@ -1,5 +1,5 @@
 <template>
-  <section class="hero relative">
+  <section id="hero" class="hero relative">
     <div class="container">
       <div class="content">
         <SubTitle class="bg-secondary text-white">Premium Residence</SubTitle>

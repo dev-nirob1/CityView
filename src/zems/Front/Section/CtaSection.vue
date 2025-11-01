@@ -5,7 +5,7 @@ const handleSubmit=()=> {
 </script>
 
 <template>
-  <section class="contact bg-primary">
+  <section id="contact" class="contact bg-primary">
     <div class="container">
       <div class="medium-2 align-center gap-1">
         <div class="contact-info">

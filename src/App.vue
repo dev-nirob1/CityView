@@ -11,6 +11,7 @@ import HeroSection from './zems/Front/Section/HeroSection.vue';
 import OurPartner from './zems/Front/Section/OurPartner.vue';
 import TestimonialSection from './zems/Front/Section/TestimonialSection.vue';
 import WhyChooseUs from './zems/Front/Section/WhyChooseUs.vue';
+import ScrollToTop from './zems/Front/Widget/ScrollToTop.vue';
 </script>
 
 <template>
@@ -26,6 +27,7 @@ import WhyChooseUs from './zems/Front/Section/WhyChooseUs.vue';
   <OurPartner />
   <CtaSection/>
   <FooterSection />
+  <ScrollToTop/>
 </template>
 
 <style scoped></style>

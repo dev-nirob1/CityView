@@ -27,27 +27,30 @@ onMounted(() => {
         </a>
 
         <ul class="nav-links" :class="{ 'active': isMenuOpen }">
-          <ListItem class="mobile-logo">
-            <a href="#" class="logo">
-              <BaseImage image="/logo-header.png" alt="logo" />
-            </a>
-          </ListItem>
-          <ListItem>
-            <a href="#">Home</a>
-          </ListItem>
-          <ListItem>
-            <a href="#about">About</a>
-          </ListItem>
-          <ListItem>
-            <a href="#properties">Properties</a>
-          </ListItem>
-          <ListItem>
-            <a href="#contact">Contact</a>
-          </ListItem>
-          <ListItem>
-            <i class="fa-solid fa-phone text-secondary"></i> +8801234567890
-          </ListItem>
-        </ul>
+  <ListItem class="mobile-logo">
+    <a href="#" class="logo">
+      <BaseImage image="https://scionassetbd.com/uploads/brands/logo.png" alt="logo" />
+    </a>
+  </ListItem>
+  <ListItem>
+    <a href="#hero">Home</a>
+  </ListItem>
+  <ListItem>
+    <a href="#about">About</a>
+  </ListItem>
+  <ListItem>
+    <a href="#properties">Properties</a>
+  </ListItem>
+  <ListItem>
+    <a href="#faq">FAQ</a>
+  </ListItem>
+  <ListItem>
+    <a href="#contact">Contact</a>
+  </ListItem>
+  <ListItem>
+    <i class="fa-solid fa-phone text-secondary"></i> +8801234567890
+  </ListItem>
+</ul>
 
 
         <div @click="handleHamburger" class="hamburger flex-center">
@@ -64,7 +67,6 @@ onMounted(() => {
   padding: .75rem 0;
   background: var(--white-color);
   color: var(--dark-color);
-
 }
 
 .container {
@@ -93,7 +95,7 @@ onMounted(() => {
 }
 
 .nav-links {
-  background: var(--dark-color);
+  background: var(--white-color);
   padding: 1rem 0;
   display: flex;
   flex-direction: column;
@@ -119,7 +121,7 @@ onMounted(() => {
 .hamburger {
   height: 2rem;
   width: 2rem;
-  background: var(--primary-color);
+  background: var(--white-color);
 }
 
 .dropdown-menu {
