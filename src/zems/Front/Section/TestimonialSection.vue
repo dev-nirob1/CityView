@@ -72,7 +72,7 @@ const testimonials = [
 </script>
 
 <template>
-  <section class="testimonials">
+  <section class="testimonials relative">
     <div class="container">
       <SectionTitle class="text-center" title="What Our Clients Say"
         subTitle="Real experiences from our happy homeowners" />
@@ -93,6 +93,12 @@ const testimonials = [
 <style scoped>
 .testimonials {
   padding: 3.75rem 0;
+}
+.testimonials::before {
+  content: '';
+  position: absolute;
+  height: 50%;
+  width: 100%;top:0;left:0;background:rgb(from var(--primary-color)r g b / 3%);
 }
 
 .card-slider {

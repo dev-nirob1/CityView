@@ -53,7 +53,9 @@
   inset: 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
 }
-
+.hero .btn:hover {
+  background: var(--secondary-color);
+}
 @media (min-width: 768px) {
   .hero {
     text-align: left;

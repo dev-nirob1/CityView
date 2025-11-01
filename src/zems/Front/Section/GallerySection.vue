@@ -45,7 +45,7 @@ const handleNext = () => {
 
     <div class="all-2 medium-3 large-4 gap-1 masonry">
       <div v-for="(image, i) in gallery" :key="i" class="masonry-item relative">
-        <img :src="image.src" :alt="image.alt" />
+        <BaseImage :image="image.src" :alt="image.alt" />
         <div class="caption flex-center">{{ image.title }}</div>
         <BaseButton @click="handleOpenModal(i)"><i class="fa-solid fa-up-right-and-down-left-from-center"></i>
         </BaseButton>
@@ -91,12 +91,15 @@ const handleNext = () => {
 
 .caption {
   position: absolute;
-  bottom: 0;
-  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   background: var(--white-color);
   font-weight: bold;
   font-size: 1.25rem;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
   opacity: 0;
   pointer-events: none;
   transition: all .5s ease-in-out;

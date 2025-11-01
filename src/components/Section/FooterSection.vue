@@ -5,7 +5,7 @@
       <!-- Footer logo and contact info -->
       <div class="contact-info">
         <a href="/" class="logo">
-          <BaseImage image="https://scionassetbd.com/uploads/brands/logo.png" alt="Real Estate Logo" />
+          <BaseImage image="https://scionassetbd.com/uploads/brands/logo-2.png" alt="Real Estate Logo" />
         </a>
 
         <BaseParagraph>
@@ -67,11 +67,8 @@
 
 <style scoped>
 .footer {
-  color: var(--dark-color);
-
-}
-.footer i {
-  color: var(--secondary-color);
+  color: rgb(from var(--white-color)r g b / 90%);
+  background: var(--dark-color);
 }
 
 .footer .logo img {
@@ -89,9 +86,9 @@
 .footer .social-links a {
   border-radius: .25rem;
   background: var(--white-color);
-  color: var(--primary-color);
+  color: var(--secondary-color);
   padding: 0 .75rem;
-  border: 1px solid var(--border-color);
+  /* border: 1px solid var(--border-color); */
 }
 
 .footer .sub-title {
@@ -154,7 +151,7 @@
 
 .footer .newsletter-form .btn {
   padding: 1rem 2rem;
-  background: var(--primary-color);
+  background: var(--secondary-color);
   border-radius: 0 .25rem .25rem 0;
   margin: 0;
 }
@@ -165,6 +162,6 @@
 .footer-bottom {
   text-align: center;
   padding: .75rem;
-  border-top: 1px solid var(--border-color);
+  border-top: 1px solid rgb(from var(--border-color) r g b / 40%);
 }
 </style>

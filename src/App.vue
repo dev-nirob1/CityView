@@ -15,14 +15,14 @@ import WhyChooseUs from './zems/Front/Section/WhyChooseUs.vue';
 <template>
   <NavbarSection />
   <HeroSection />
-  <AboutProject/>
-  <FloorPlans/>
-  <AminitiesSection/>
-  <WhyChooseUs/>
-  <GallerySection/>
-  <FaqSection/>
-  <TestimonialSection/>
-  <OurPartner/>
+  <AboutProject />
+  <FloorPlans />
+  <AminitiesSection />
+  <WhyChooseUs />
+  <GallerySection />
+  <TestimonialSection />
+  <FaqSection />
+  <OurPartner />
   <FooterSection />
 </template>
 

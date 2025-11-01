@@ -10,7 +10,7 @@ const logos = [
 </script>
 
 <template>
-  <section class="partner-section bg-light">
+  <section class="partner-section">
     <div class="marque">
       <BaseImage v-for="(logo, index) in logos" :key="index" :image="logo" alt="Partner company logo" class="logo-img" />
     </div>
