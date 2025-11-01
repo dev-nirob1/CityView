@@ -2,15 +2,15 @@
   <section id="hero" class="hero relative">
     <div class="container">
       <div class="content">
-        <SubTitle class="bg-secondary text-white">Premium Residence</SubTitle>
+        <SubTitle class="bg-secondary text-white">Premium Residences</SubTitle>
         <HeroTitle>
-          Discover <span class="text-secondary">Modern Living</span> <br />
-          in the Heart of the City
+    Crafting <span class="text-secondary">Modern Spaces</span><br />
+    for Urban Living
         </HeroTitle>
         <BaseParagraph>
           Elevate your lifestyle at Emerald Heights — where architectural brilliance meets natural tranquility.
         </BaseParagraph>
-        <BaseButton class="bg-primary">Schedule A Visit</BaseButton>
+        <a href="#contact" class="btn bg-primary">Schedule A Visit</a>
       </div>
       <div class="image">
         <BaseImage image="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1600&q=80"

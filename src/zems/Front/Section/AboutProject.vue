@@ -1,4 +1,5 @@
 <script setup>
+import BaseParagraph from '@/components/element/BaseParagraph.vue';
 import ProjectGallery from '../Widget/ProjectGallery.vue';
 
 </script>
@@ -8,40 +9,26 @@ import ProjectGallery from '../Widget/ProjectGallery.vue';
     <div class="container">
       <div class="medium-2 gap-1">
         <ProjectGallery />
-        <div class="project-details medium-p-1">
+        <div class="project-details">
           <BaseTitle>Recently Finished Project</BaseTitle>
-          <BaseParagraph>
-            <i class="fa-solid fa-location-dot text-secondary"></i> Cox's Bazar, Bangladesh
-          </BaseParagraph>
-          <BaseParagraph>
-            Nestled beside the world’s longest sea beach, <strong>Azure Bay Residences</strong> stands as a symbol
-            of luxury coastal living. Designed with a blend of modern architecture and nature-inspired aesthetics,
-            this completed project offers residents breathtaking ocean views and peaceful surroundings.
+          <BaseParagraph> <i class="fa-solid fa-location-dot text-secondary"></i> Cox's Bazar, Bangladesh
           </BaseParagraph>
 
           <BaseParagraph>
-            Each apartment features open balconies, natural lighting, and smart interior layouts —
-            giving you a lifestyle that feels both elegant and effortless. From rooftop infinity pools
-            to lush garden lounges, Azure Bay Residences redefine what it means to come home.
+             Azure Bay Residences offers seaside serenity with modern elegance.
+            Enjoy panoramic ocean views, open balconies, and thoughtfully designed interiors that redefine coastal
+            living.
           </BaseParagraph>
 
-          <ul class="all-2 gap-1 mt-2 mb-1">
-            <ListItem>
-              <i class="fas fa-home"></i>
-              Spacious Living Rooms
-            </ListItem>
-            <ListItem>
-              <i class="fas fa-bed"></i>
-              Comfortable Bedrooms
-            </ListItem>
-            <ListItem>
-              <i class="fas fa-bath"></i>
-              Modern Bathrooms
-            </ListItem>
-            <ListItem>
-              <i class="fa-solid fa-car"></i>
-              Parking Space
-            </ListItem>
+          <BaseParagraph>
+            From the rooftop infinity pool to lush garden lounges, every detail reflects comfort and
+            sophistication. </BaseParagraph>
+
+          <ul class="all-2 gap-1">
+            <ListItem> <i class="fas fa-home"></i> Spacious Living Rooms </ListItem>
+            <ListItem> <i class="fas fa-bed"></i> Comfortable Bedrooms </ListItem>
+            <ListItem> <i class="fas fa-bath"></i> Modern Bathrooms </ListItem>
+            <ListItem> <i class="fa-solid fa-car"></i> Parking Space </ListItem>
           </ul>
         </div>
       </div>
@@ -54,12 +41,13 @@ import ProjectGallery from '../Widget/ProjectGallery.vue';
   padding: 3.75rem 0;
 }
 
-.project-details p {
-  margin: .5rem 0;
-}
 
 .project-details ul {
   margin-top: .75rem;
+}
+
+.project-details p {
+  margin: .75rem 0;
 }
 
 .project-details ul li {
@@ -72,5 +60,11 @@ import ProjectGallery from '../Widget/ProjectGallery.vue';
 .project-details ul li i {
   color: var(--secondary-color);
   font-size: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .project-details {
+    padding: 1rem;
+  }
 }
 </style>
