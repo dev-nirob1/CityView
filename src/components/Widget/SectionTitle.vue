@@ -11,7 +11,7 @@ defineProps({
 <template>
   <div class="section-title">
     <BaseTitle>{{ title }}</BaseTitle>
-    <Baseparagraph>{{ subTitle }}</Baseparagraph>
+    <BaseParagraph>{{ subTitle }}</BaseParagraph>
   </div>
 </template>
 <style>
