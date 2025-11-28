@@ -117,6 +117,9 @@ onMounted(() => {
   display: inline-block;
   padding: .5rem 1rem;
 }
+.nav-links a:hover{
+  color: var(--secondary-color);
+}
 
 .hamburger {
   height: 2rem;
